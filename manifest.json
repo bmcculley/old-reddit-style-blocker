@@ -1,0 +1,19 @@
+{
+    "name": "Old Reddit Sub Style Blocker",
+    "description": "No need for the additional styles.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": { "scripts": ["background.js"] },
+    "icons": {
+      "48": "img/icon48.png",
+      "64": "img/icon64.png",
+      "128": "img/icon128.png"
+    },
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "*://*.reddit.com/*",
+      "*://*.thumbs.redditmedia.com/*"
+    ]
+  }
+  
